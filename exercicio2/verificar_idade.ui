@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>594</width>
     <height>600</height>
    </rect>
   </property>
@@ -16,7 +16,6 @@
   <property name="styleSheet">
    <string notr="true">QMainWindow {
     background-image: url('fundo.jpg');
-    background-repeat: no-repeat;
     background-position: center;
 }
 </string>
@@ -25,7 +24,7 @@
    <widget class="QLineEdit" name="lineEdit_idade">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>240</x>
       <y>80</y>
       <width>151</width>
       <height>31</height>
@@ -38,7 +37,7 @@
    <widget class="QPushButton" name="pushButton_verificar">
     <property name="geometry">
      <rect>
-      <x>490</x>
+      <x>420</x>
       <y>80</y>
       <width>75</width>
       <height>23</height>
@@ -54,7 +53,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>120</x>
+      <x>60</x>
       <y>60</y>
       <width>161</width>
       <height>71</height>
@@ -74,14 +73,21 @@
      <rect>
       <x>20</x>
       <y>150</y>
-      <width>761</width>
-      <height>261</height>
+      <width>541</width>
+      <height>221</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QMainWindow {
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}</string>
     </property>
     <property name="text">
      <string>Resultado:</string>
@@ -93,23 +99,15 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
+     <width>594</width>
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuArquivo">
-    <property name="title">
-     <string>Arquivo</string>
-    </property>
-    <addaction name="actionSair"/>
-   </widget>
    <widget class="QMenu" name="menuAjuda">
     <property name="title">
      <string>Ajuda</string>
     </property>
-    <addaction name="actionSobre"/>
    </widget>
-   <addaction name="menuArquivo"/>
    <addaction name="menuAjuda"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
